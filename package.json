@@ -1,0 +1,25 @@
+{
+  "name": "react-formulate-ui",
+  "version": "1.0.0",
+  "description": "React.js package to generate forms & UI based on JSON schema",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "test": "pnpm -r test"
+  },
+  "keywords": [
+    "dynamic-form-generator"
+  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": {
+    "name": "Saeed Panahi",
+    "email": "panahi.projects@gmail.com"
+  },
+  "license": "ISC"
+}
