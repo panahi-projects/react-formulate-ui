@@ -14,10 +14,7 @@ const FieldWrapper: React.FC<FieldWrapperProps> = memo(
     return (
       <div className={`field-container mb-4 ${className}`}>
         {label && (
-          <label
-            htmlFor={id}
-            className="block text-sm font-medium text-gray-700"
-          >
+          <label htmlFor={id} className="block text-sm font-medium text-gray-700">
             {label} {required && <span className="text-red-500">*</span>}
           </label>
         )}
