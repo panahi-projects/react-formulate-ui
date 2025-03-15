@@ -3,6 +3,13 @@ import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
 
 export default defineConfig({
+  resolve: {
+    alias: {
+      "@providers": "/src/providers",
+      "@components": "/src/components",
+      "@interfaces": "/src/interfaces",
+    },
+  },
   plugins: [
     react(),
     dts({

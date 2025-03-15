@@ -14,7 +14,10 @@
     "resolveJsonModule": true,
     "baseUrl": "./src",
     "paths": {
-      "@core/*": ["./src/*"]
+      "@core/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@providers/*": ["./src/providers/*"],
+      "@interfaces/*": ["./src/interfaces/*"]
     }
   },
   "include": ["src"],
